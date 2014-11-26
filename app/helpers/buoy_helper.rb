@@ -1,0 +1,2 @@
+module BuoyHelper
+end

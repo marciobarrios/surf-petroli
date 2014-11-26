@@ -1,0 +1,16 @@
+<div class=container>
+  <header>
+    <h1>Pont del Petroli</h1>
+  </header>
+  <section>
+    <div class=data-name>Altura de ola</div>
+    <div class=data-value><%= @swell_data.height %><small>m</small></div>
+    <div class=data-name>Periodo</div>
+    <div class=data-value><%= @swell_data.period %><small>s</small></div>
+    <div class=data-name>Dirección</div>
+    <div class=data-value><%= @swell_data.direction %>º</div>
+  </section>
+</div>
+<footer>
+  Últimos datos de la boya: <%= @swell_data.timestamp.strftime("%B %-d %k:%Mh, %Y") %>
+</footer>

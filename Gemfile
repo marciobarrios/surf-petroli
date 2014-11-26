@@ -39,3 +39,8 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Gem to fetch the meteo data
+gem 'pont_del_petroli'
+
+# Forget about vendor prefixes
+gem 'autoprefixer-rails', '~> 4.0.1'
